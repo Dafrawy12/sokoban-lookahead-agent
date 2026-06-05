@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(python -m py_compile llm_tot_agent.py)",
+      "Bash(python -m py_compile renderer.py)",
+      "Bash(python -m py_compile main.py)"
+    ]
+  }
+}
